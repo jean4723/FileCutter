@@ -4,6 +4,7 @@ import io
 import zipfile
 import os
 import math
+from datetime import datetime
 
 # -----------------------------
 # Streamlit Page Settings
@@ -24,7 +25,7 @@ st.write(
 # Settings
 # -----------------------------
 ROWS_PER_FILE = 5000
-FILE_DATE = "20260818"
+FILE_DATE = datetime.now().strftime("%Y%m%d")
 
 # -----------------------------
 # Upload File
