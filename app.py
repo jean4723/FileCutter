@@ -5,7 +5,6 @@ import zipfile
 import os
 import math
 from datetime import datetime
-import openpyxl
 
 # -----------------------------
 # Streamlit Page Settings
